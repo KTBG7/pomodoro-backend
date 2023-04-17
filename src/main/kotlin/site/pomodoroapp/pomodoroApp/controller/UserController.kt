@@ -15,6 +15,7 @@ class UserController {
         var user: UserDto = UserDto("Kevin", "pass")
         var users = ArrayList<String>()
         users.add(user.username)
+        //test
         return ResponseEntity.ok(users);
     }
 }
