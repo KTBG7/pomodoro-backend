@@ -1,11 +1,11 @@
-package site.pomodoroapp.pomodoroApp
+package com.pomodorobackend.pomodoro
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class PomodoroAppApplication
+class PomodoroApplication
 
 fun main(args: Array<String>) {
-	runApplication<PomodoroAppApplication>(*args)
+	runApplication<PomodoroApplication>(*args)
 }
