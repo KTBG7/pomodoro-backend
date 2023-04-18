@@ -5,3 +5,4 @@ deploy:
   provider: heroku
   api_key: $HEROKU_TOKEN
   app: "pomodorobackend"
+  on: main
